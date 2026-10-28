@@ -1,4 +1,4 @@
-import { useDesktopVolumeStore } from 'nuxt-desktop/runtime/stores/storeDesktopVolume'
+import { useDesktopVolumeStore } from '@owdproject/nuxt/runtime/stores/storeDesktopVolume'
 import { markRaw } from 'vue'
 
 export const wasmboyConfig = {

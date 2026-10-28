@@ -1,4 +1,4 @@
-import { useApplicationMetaStore } from 'nuxt-desktop/runtime/stores/storeApplicationMeta'
+import { useApplicationMetaStore } from '@owdproject/nuxt/runtime/stores/storeApplicationMeta'
 import { reactive } from 'vue'
 
 export const useWasmboyStore = useApplicationMetaStore(

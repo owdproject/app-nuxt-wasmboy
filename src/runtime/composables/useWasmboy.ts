@@ -5,7 +5,7 @@ import {
   debugLog,
   debugWarn,
   debugError,
-} from 'nuxt-desktop/runtime/utils/utilDebug'
+} from '@owdproject/nuxt/runtime/utils/utilDebug'
 import { reactive } from 'vue'
 import {
   wasmboyConfig,

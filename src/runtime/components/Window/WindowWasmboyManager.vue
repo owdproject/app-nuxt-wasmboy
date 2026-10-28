@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useApplicationManager } from 'nuxt-desktop'
+import { useApplicationManager } from '@owdproject/nuxt/runtime/composables/useApplicationManager'
 
 import WasmboyManagerGames from '../Wasmboy/Manager/WasmboyManagerGames.vue'
 import WasmboyManagerSaves from '../Wasmboy/Manager/WasmboyManagerSaves.vue'

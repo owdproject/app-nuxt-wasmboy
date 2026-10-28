@@ -14,7 +14,7 @@ export default defineNuxtModule({
   async setup(options, nuxt) {
     const { resolve } = createResolver(import.meta.url)
 
-    nuxt.options.alias['owd-app-wasmboy'] = resolve(__dirname, './runtime')
+    nuxt.options.alias['owd-app-wasmboy'] = resolve('./runtime')
 
     {
       // add components
