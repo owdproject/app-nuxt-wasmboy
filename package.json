@@ -50,10 +50,12 @@
     "@nuxt/kit": "^4.4.6",
     "json-arraybuffer-reviver": "^2.0.0",
     "wasmboy": "0.7.1",
-    "@owdproject/kit-tailwind": "workspace:*"
+    "@owdproject/kit-tailwind": "workspace:*",
+    "nuxt-desktop": "workspace:*"
   },
   "peerDependencies": {
-    "@owdproject/core": "^3.4.0"
+    "@owdproject/core": ">=4.0.0-alpha.0",
+    "nuxt-desktop": ">=1.0.0"
   },
   "devDependencies": {
     "@owdproject/core": "workspace:*",

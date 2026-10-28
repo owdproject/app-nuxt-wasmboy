@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useApplicationManager } from '@owdproject/core/runtime/composables/useApplicationManager'
+import { useApplicationManager } from 'nuxt-desktop'
 
 import WasmboyManagerGames from '../Wasmboy/Manager/WasmboyManagerGames.vue'
 import WasmboyManagerSaves from '../Wasmboy/Manager/WasmboyManagerSaves.vue'
@@ -7,7 +7,7 @@ import WasmboyManagerSettings from '../Wasmboy/Manager/WasmboyManagerSettings.vu
 import WasmboyManagerAtproto from '../Wasmboy/Manager/WasmboyManagerAtproto.vue'
 
 defineProps<{
-  window: IWindowController
+  window: any
 }>()
 
 const applicationManager = useApplicationManager()

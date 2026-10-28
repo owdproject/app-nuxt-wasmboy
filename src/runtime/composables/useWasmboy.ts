@@ -5,13 +5,13 @@ import {
   debugLog,
   debugWarn,
   debugError,
-} from '@owdproject/core/runtime/utils/utilDebug'
-import { reactive } from '@vue/reactivity'
+} from 'nuxt-desktop/runtime/utils/utilDebug'
+import { reactive } from 'vue'
 import {
   wasmboyConfig,
   getLatestGameFromWasmboyStorage,
 } from '../utils/utilWasmboy'
-import { useWasmboyStore } from 'owd-app-wasmboy/stores/storeWasmboy'
+import { useWasmboyStore } from '../stores/storeWasmboy'
 
 const wasmboyLibrary = useWasmboyLibrary()
 const wasmboyStore = useWasmboyStore()

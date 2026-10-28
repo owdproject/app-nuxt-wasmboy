@@ -51,7 +51,7 @@ export default {
   },
 }
 
-function handleCommand(app: IApplicationController, args: any[]) {
+function handleCommand(app: any, args: any[]) {
   if (args.length === 1 && ['manager', 'settings'].includes(args[0])) {
     return app.openWindow('manager')
   }
