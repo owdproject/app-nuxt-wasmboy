@@ -26,7 +26,7 @@ Static preview (GitHub Pages):
 pnpm run dev:generate
 ```
 
-Uses `@owdproject/theme-nova` as the base shell in the monorepo playground.
+Uses `@owdproject/theme-nuxt-nova` as the base shell in the monorepo playground.
 
 Live demo: [owdproject.github.io/app-wasmboy](https://owdproject.github.io/app-wasmboy/)
 
@@ -35,7 +35,7 @@ Contributor/agent playbook: [OWD_APP_MODULE_PLAYGROUND.md](../../docs/agents/OWD
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-wasmboy
+pnpm desktop add @owdproject/app-nuxt-wasmboy
 ```
 
 ## Usage
