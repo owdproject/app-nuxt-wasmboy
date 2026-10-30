@@ -1,8 +1,8 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nuxt-nova',
-  apps: ['@owdproject/app-nuxt-wasmboy'],
+  theme: '@owdproject/nuxt-theme-nova',
+  apps: ['@owdproject/nuxt-app-wasmboy'],
   systemBar: {
     enabled: true,
     startButton: true,
@@ -10,7 +10,7 @@ export default defineDesktopConfig({
   about: {
     title: 'WasmBoy (playground)',
     subtitle: 'app-wasmboy · theme-nova',
-    href: 'https://github.com/owdproject/app-wasmboy',
+    href: 'https://github.com/owdproject/nuxt-app-wasmboy',
     versionText: 'Nuxt Desktop',
     icons: [
       {
