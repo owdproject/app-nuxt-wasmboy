@@ -26,7 +26,7 @@ Static preview (GitHub Pages):
 pnpm run dev:generate
 ```
 
-Uses `@owdproject/nuxt-theme-nova` as the base shell in the monorepo playground.
+Uses `@owdproject/nuxt-theme-paper` as the base shell in the monorepo playground.
 
 Live demo: [owdproject.github.io/nuxt-app-wasmboy](https://owdproject.github.io/nuxt-app-wasmboy/)
 
